@@ -1,0 +1,53 @@
+nemo-dropbox (2.6.0) rafaela; urgency=medium
+
+  * 2.6.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 02 Jun 2015 13:41:11 +0200
+
+nemo-dropbox (2.4.0) rebecca; urgency=medium
+
+  * 2.4.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 01 Nov 2014 11:36:53 +0100
+
+nemo-dropbox (2.2.1) qiana; urgency=medium
+
+  * 2.2.1
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 22 May 2014 14:16:45 +0100
+
+nemo-dropbox (2.2.0) qiana; urgency=medium
+
+  * 2.2.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 12 Apr 2014 16:18:35 +0100
+
+nemo-dropbox (2.0.1) petra; urgency=low
+
+  * 2.0.1
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 22 Nov 2013 11:02:03 +0000
+
+nemo-dropbox (2.0.0) petra; urgency=low
+
+  * 2.0.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 30 Sep 2013 15:42:54 +0100
+
+nemo-dropbox (1.8.0) olivia; urgency=low
+
+  * 1.8.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 16 Apr 2013 10:41:51 +0100
+
+nemo-dropbox (1.0.1) nadia; urgency=low
+
+  * Provides dropbox, conflicts with caja-dropbox
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 21 Oct 2012 23:34:19 +0100
+
+nemo-dropbox (1.0.0) maya; urgency=low
+
+  * Initial port from nemo-dropbox
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 7 Sep 2012 15:40:00 +0200

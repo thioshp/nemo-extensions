@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with=python2,autoreconf
+
+override_dh_autoreconf:
+	dh_autoreconf --as-needed
+
+override_dh_makeshlibs:
+	# Don't generate a shlibs file for the plugin
+	dh_makeshlibs -X/usr/lib/nemo/
+
+override_dh_auto_install:
+	dh_auto_install
+	# Drop useless files
+	rm -f debian/nemo-dropbox/usr/lib/nemo/extensions-*/libnemo-dropbox.a
+	rm -f debian/nemo-dropbox/usr/lib/nemo/extensions-*/libnemo-dropbox.la
+	rm -f debian/nemo-dropbox/usr/bin/dropbox
+	rm -f debian/nemo-dropbox/usr/share/applications/dropbox.desktop
+	rm -rf debian/nemo-dropbox/usr/share/icons/*
+	rm -rf debian/nemo-dropbox/usr/share/man/*
+
