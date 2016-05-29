@@ -1,0 +1,22 @@
+#! /usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+export LDFLAGS+=-Wl,--as-needed
+
+# To avoid running configure twice (because gnome-autogen.sh)
+export NOCONFIGURE=yes
+
+%:
+	dh $@ --parallel --with autoreconf
+
+override_dh_autoreconf:
+	dh_autoreconf --as-needed ./autogen.sh
+
+DEB_INSTALL_EXAMPLES_python-nemo := $(wildcard examples/*.py) examples/README
+DEB_DH_MAKESHLIBS_ARGS_python-nemo += --no-act
+
+binary-post-install/python-nemo::
+	rm -rf debian/python-nemo/usr/share/doc/nemo-python/
+	rm -f debian/python-nemo/usr/lib/nemo/extensions-3.0/*.la

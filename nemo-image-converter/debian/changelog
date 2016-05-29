@@ -1,0 +1,19 @@
+nemo-image-converter (2.6.0) rafaela; urgency=medium
+
+  * 2.6.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 02 Jun 2015 13:42:49 +0200
+
+nemo-image-converter (2.4.0) rebecca; urgency=medium
+
+  * 2.4.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 01 Nov 2014 11:38:33 +0100
+
+nemo-image-converter (0.3.1) qiana; urgency=high
+
+  * Initial release
+
+ -- Goran Vidovic (gogo) <trebelnik2@gmail.com>  Tue, 10 Jun 2014 14:08:05 +0100
+
+

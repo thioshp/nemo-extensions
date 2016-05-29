@@ -1,0 +1,41 @@
+nemo-python (2.6.0) rafaela; urgency=medium
+
+  * 2.6.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 02 Jun 2015 13:43:58 +0200
+
+nemo-python (2.4.1) rebecca; urgency=medium
+
+  * Fix libdirsuffix for i386
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 12 Nov 2014 01:16:32 +0100
+
+nemo-python (2.4.0) rebecca; urgency=medium
+
+  * 2.4.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 01 Nov 2014 11:40:04 +0100
+
+nemo-python (2.2.0) qiana; urgency=medium
+
+  * 2.2.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 12 Apr 2014 16:22:20 +0100
+
+nemo-python (2.0.0) petra; urgency=low
+
+  * 2.0.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 30 Sep 2013 15:45:52 +0100
+
+nemo-python (1.8.0) olivia; urgency=low
+
+  * 1.8.0
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 16 Apr 2013 10:42:53 +0100
+
+nemo-python (1.0-0) unstable; urgency=low
+
+  * Initial port to Nemo
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 17 Oct 2012 18:00:00 -0500
